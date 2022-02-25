@@ -1,0 +1,248 @@
+.transferParent {
+  height: calc(100vh - 109px);
+}
+.transferbox {
+  width: 100%;
+  margin: 133px auto;
+  max-height: 663px;
+  background-color: #21242d;
+  display: flex;
+  border-radius: 36px;
+}
+
+.selectPanel {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  height: 109px;
+  max-width: 800px;
+  padding-left: 44px;
+  align-items: center;
+}
+
+.separator {
+  width: 750px;
+  border-right: 1px solid rgba(38, 42, 55, 1);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.selectPanel p {
+  color: white;
+  margin-top: 5px;
+}
+
+.selectPanel input {
+  border-radius: 10px;
+  height: 32px;
+  background-color: rgba(37, 40, 49, 1);
+  color: white;
+  text-align: left;
+  padding: 0 0 0 15px;
+  border: none;
+  margin-top: 5px;
+}
+.selectPanel input:focus {
+  outline: none;
+}
+
+.listBtn {
+  border: none;
+  color: rgba(112, 120, 200, 1);
+}
+
+.selectPanel .selectPanelSection2 {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapBox {
+  padding: 44px 60px;
+  width: 300px;
+}
+.wrapBox p {
+  color: white;
+  margin-top: 5px;
+}
+
+.wrapBox .selectedNFT {
+  height: 340px;
+  max-height: 340px;
+  width: 430px;
+  background-color: rgba(32, 35, 44, 1);
+  border-radius: 30px;
+  margin-left: -20px;
+  padding-top: 22.24px;
+  padding-left: 25.8px;
+  padding-right: 25.8px;
+}
+
+.wrapBox .selectedNFT .heading {
+  text-align: left;
+}
+.wrapBox .selectedNFT input {
+  width: 60%;
+  border-radius: 10px;
+  height: 32px;
+  background-color: rgba(37, 40, 49, 1);
+  color: white;
+  text-align: left;
+  padding: 0 0 0 15px;
+  border: none;
+}
+.wrapBox .selectedNFT .inputBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.wrapBox .selectedNFT button {
+  height: 28px;
+  width: 28px;
+  background-color: #20232c;
+  outline: none;
+  border: none;
+}
+.wrapBox .selectedNFT input:focus {
+  outline: none;
+}
+
+.countDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.selectedNFTrow {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.selectedNFTrow div {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.selectedNFTrow div img {
+  height: 27px;
+  width: 29px;
+}
+
+.selectedNFTrow button {
+  color: white;
+}
+
+.fees {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  width: 430px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: rgba(32, 35, 44, 1);
+}
+
+.wrapButton {
+  height: 65px;
+  width: 430px;
+  border-radius: 23px;
+  background-color: rgba(73, 58, 169, 1);
+  outline: none;
+  border: none;
+  color: white;
+  margin-top: 40px;
+}
+
+.TransferPowerSection {
+  position: relative;
+  bottom: 100px;
+  left: 45%;
+  display: flex;
+  height: 15px;
+}
+
+.allRows {
+  max-height: 150px;
+  overflow: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 22px;
+  padding: 10px;
+}
+
+.modal-header {
+  border: 1px solid #272c39;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+}
+.infoRow {
+  height: 60px;
+  background-color: rgba(38, 42, 51, 1);
+  margin-bottom: 10px;
+  border-radius: 11px;
+  padding-left: 13px;
+}
+.infoRow p {
+  margin: 0;
+  text-align: left;
+}
+
+.infoModalBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridViewer {
+  max-height: "554px";
+  max-width: "691px";
+}
+
+.infoBtnList {
+  position: absolute;
+  margin-left: 5rem;
+}
+
+.modalInfoImg {
+  width: 160px;
+  height: 200px;
+}
+
+/* @media only screen and (max-width: 1024px) {
+  .transferbox {
+    width: 90%;
+  }
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+  .separator {
+    max-width: 100%;
+  }
+  .selectPanel {
+    max-width: 100%;
+  }
+  .wrapBox {
+    width: 30%;
+    padding: 44px 20px;
+  }
+  .wrapBox .selectedNFT {
+    width: 250px;
+  }
+  .fees {
+    width: 250px;
+  }
+  .wrapButton {
+    width: 250px;
+  }
+  .grid-container {
+    grid-row-gap: 100px;
+  }
+} */

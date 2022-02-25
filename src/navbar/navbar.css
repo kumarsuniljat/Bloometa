@@ -1,0 +1,34 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2rem;
+  z-index: 1000;
+}
+
+.navbarImage p {
+  color: rgba(114, 117, 129, 1);
+}
+.navbarImage {
+  margin-left: 2rem;
+}
+.navbarContent {
+  display: flex;
+}
+.navbarContent p {
+  color: white;
+  margin-right: 2rem;
+}
+
+.bgFix {
+  background-color: #1a1c23;
+}
+
+@media only screen and (max-width: 430px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
